@@ -63,7 +63,6 @@ def test_send_answer(browser,page, answer, wrong_results):
     browser.find_element(By.CSS_SELECTOR, "[placeholder='Напишите ваш ответ здесь...']").send_keys(str(answer))
     time.sleep(2)
     browser.find_element(By.CSS_SELECTOR, ".submit-submission").click()
-    print("push")
     result = browser.find_element(By.CSS_SELECTOR, ".smart-hints__hint").text
     if result != "Correct!":
         wrong_results.append(result)

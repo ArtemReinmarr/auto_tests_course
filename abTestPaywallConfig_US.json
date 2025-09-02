@@ -1,0 +1,205 @@
+{
+  "testName": "Default_Prices_27.5.24",
+  "minVersion": "2.8.6",
+  "variationName": "us_highPrices",
+  "source": {
+    "onboardingSource": {
+      "screen": "pattern_leafs_toggle",
+      "subscriptionCrossDelay": 4
+    },
+    "onboardingSecondSource": {
+      "screen": "pattern_leafs",
+      "subscriptionCrossDelay": 0
+    },
+    "paywallAfterPatternLeafsSource": {
+      "screen": "trial_paywall",
+      "subscriptionCrossDelay": 0
+    },
+    "onboardingSurveyExpensiveSource": {
+      "screen": "onboarding_mj_girl_from_survey_expensive",
+      "subscriptionCrossDelay": 0
+    },
+    "onboardingSurveyUseForFreeSource": {
+      "screen": "onboarding_mj_girl_from_survey_use_for_free",
+      "subscriptionCrossDelay": 0
+    },
+    "identifierSource": {
+      "screen": "identifier_subcription_1option",
+      "subscriptionCrossDelay": 4
+    },
+    "plantDoctorSource": {
+      "screen": "plant_doctor_subcription_1option",
+      "subscriptionCrossDelay": 4
+    },
+    "lightMeterSource": {
+      "screen": "light_meter_subcription_1option",
+      "subscriptionCrossDelay": 4
+    },
+    "reminderSource": {
+      "screen": "reminder_subcription_1option",
+      "subscriptionCrossDelay": 4
+    },
+    "aiAssistantSource": {
+      "screen": "ai_assistant_subcription_1option",
+      "subscriptionCrossDelay": 4
+    },
+    "specialOfferSource": {
+      "screen": "special_offer",
+      "subscriptionCrossDelay": 4
+    },
+    "settingsSource": {
+      "screen": "manage_subscription_all_plans",
+      "subscriptionCrossDelay": 4
+    },
+    "progressSource": {
+      "screen": "progress_25off",
+      "subscriptionCrossDelay": 4
+    }
+  },
+  "config": {
+    "onboardingMjGirlConfig": {
+      "subscriptionScreenId": "onboarding_mj_girl_3options",
+      "title": "all_things_plants_in_one_app",
+      "subscriptionSelectedPlan": "com.plants.1week.trial",
+      "subscriptionFirstPlan": "com.plants.1week.trial",
+      "subscriptionSecondPlan": "com.plants.1month.7dt.14.99",
+      "subscriptionThirdPlan": "com.plants.1year",
+      "subscriptionAllPlansFirst": "com.plants.1year",
+      "subscriptionAllPlansSecond": "com.plants.3month",
+      "subscriptionAllPlansThird": "com.plants.1month.7dt.14.99",
+      "subscriptionAllPlansFourth": "com.plants.1week.trial"
+    },
+    "onboardingPatternLeafsToggleConfig": {
+      "subscriptionScreenId": "pattern_leafs_toggle",
+      "titleFirstLine": "take_advanced_care",
+      "titleSecondLine": "with",
+      "titleAnimatedSecondLine": "plnt_pro",
+      "toggleType": "trial",
+      "subscriptionIsTrialOn": true,
+      "webPaymentFlowIsAuto": false,
+      "subscriptionSelectedPlan": "com.plants.1week.trial",
+      "subscriptionFirstPlan": "com.plants.1week.7.99",
+      "subscriptionFirstPlanWithTrial": "com.plants.1week.trial",
+      "subscriptionSecondPlan": "com.plants.1year.notrial.79.99",
+      "subscriptionSecondPlanWithTrial": "com.plants.1year.notrial.79.99",
+      "subscriptionAllPlansFirst": "com.plants.1year",
+      "subscriptionAllPlansSecond": "com.plants.3month",
+      "subscriptionAllPlansThird": "com.plants.1month.7dt.14.99",
+      "subscriptionAllPlansFourth": "com.plants.1week.trial"
+    },
+    "onboardingPatternLeafsConfig": {
+      "subscriptionScreenId": "pattern_leafs",
+      "shouldShowPaywallAfterClose": true,
+      "titleFirstLine": "take_advanced_care",
+      "titleSecondLine": "with",
+      "titleAnimatedSecondLine": "plnt_pro",
+      "webPaymentFlowIsAuto": false,
+      "subscriptionSelectedPlan": "com.plants.1week.7.99",
+      "subscriptionFirstPlan": "com.plants.1week.7.99",
+      "subscriptionSecondPlan": "com.plants.1year.notrial.79.99",
+      "subscriptionAllPlansTitle": "choose_your_subscription_duration",
+      "subscriptionAllPlansFirst": "com.plants.1year.notrial.79.99",
+      "subscriptionAllPlansSecond": "com.plants.3months.notrial.29.99",
+      "subscriptionAllPlansThird": "com.plants.1month.notrial.14.99",
+      "subscriptionAllPlansFourth": "com.plants.1week.7.99"
+    },
+    "trialPaywallConfig": {
+      "subscriptionScreenId": "trial_paywall",
+      "webPaymentFlowIsAuto": false,
+      "subscriptionPlan": "com.plants.1month.7dt.14.99"
+    },
+    "onboardingSurveyExpensiveConfig": {
+      "subscriptionScreenId": "onboarding_mj_girl_from_survey_expensive",
+      "title": "al_things_plants_in_one_app",
+      "subscriptionPlan": "com.plants.1year",
+      "subscriptionAllPlansFirst": "com.plants.1year",
+      "subscriptionAllPlansSecond": "com.plants.3month",
+      "subscriptionAllPlansThird": "com.plants.1month.7dt.14.99",
+      "subscriptionAllPlansFourth": "com.plants.1week.trial"
+    },
+    "onboardingSurveyUseForFreeConfig": {
+      "subscriptionScreenId": "onboarding_mj_girl_from_survey_use_for_free",
+      "title": "al_things_plants_in_one_app",
+      "subscriptionPlan": "com.plants.1week.trial",
+      "subscriptionAllPlansFirst": "com.plants.1year",
+      "subscriptionAllPlansSecond": "com.plants.3month",
+      "subscriptionAllPlansThird": "com.plants.1month.7dt.14.99",
+      "subscriptionAllPlansFourth": "com.plants.1week.trial"
+    },
+    "identifierConfig": {
+      "subscriptionScreenId": "identifier_subcription_1option",
+      "title": "unlimited_access_to_plant_identifier",
+      "webPaymentFlowIsAuto": false,
+      "subscriptionPlan": "com.plants.1month.7dt.14.99",
+      "subscriptionAllPlansFirst": "com.plants.1year",
+      "subscriptionAllPlansSecond": "com.plants.3month",
+      "subscriptionAllPlansThird": "com.plants.1month.7dt.14.99",
+      "subscriptionAllPlansFourth": "com.plants.1week.trial"
+    },
+    "plantDoctorConfig": {
+      "subscriptionScreenId": "plant_doctor_subcription_1option",
+      "title": "unlimited_access_to_plant_doctor",
+      "webPaymentFlowIsAuto": false,
+      "subscriptionPlan": "com.plants.1month.7dt.14.99",
+      "subscriptionAllPlansFirst": "com.plants.1year",
+      "subscriptionAllPlansSecond": "com.plants.3month",
+      "subscriptionAllPlansThird": "com.plants.1month.7dt.14.99",
+      "subscriptionAllPlansFourth": "com.plants.1week.trial"
+    },
+    "lightMeterConfig": {
+      "subscriptionScreenId": "light_meter_subcription_1option",
+      "title": "unlimited_access_to_light_meter",
+      "subscriptionPlan": "com.plants.1month.7dt.14.99",
+      "subscriptionAllPlansFirst": "com.plants.1year",
+      "subscriptionAllPlansSecond": "com.plants.3month",
+      "subscriptionAllPlansThird": "com.plants.1month.7dt.14.99",
+      "subscriptionAllPlansFourth": "com.plants.1week.trial"
+    },
+    "reminderConfig": {
+      "subscriptionScreenId": "reminder_subcription_1option",
+      "title": "unlimited_access_to_care_tasks",
+      "subscriptionPlan": "com.plants.1month.7dt.14.99",
+      "subscriptionAllPlansFirst": "com.plants.1year",
+      "subscriptionAllPlansSecond": "com.plants.3month",
+      "subscriptionAllPlansThird": "com.plants.1month.7dt.14.99",
+      "subscriptionAllPlansFourth": "com.plants.1week.trial"
+    },
+    "aiAssistantConfig": {
+      "subscriptionScreenId": "ai_assistant_subcription_1option",
+      "title": "unlimited_access_to_ai_assistant",
+      "subscriptionPlan": "com.plants.1month.7dt.14.99",
+      "subscriptionAllPlansFirst": "com.plants.1year",
+      "subscriptionAllPlansSecond": "com.plants.3month",
+      "subscriptionAllPlansThird": "com.plants.1month.7dt.14.99",
+      "subscriptionAllPlansFourth": "com.plants.1week.trial"
+    },
+    "specialOfferConfig": {
+      "subscriptionScreenId": "special_offer",
+      "discountTitle": "75%_off",
+      "title": "unlimited_access_to_all_features",
+      "subscriptionPlan": "com.plants.1year.notrial.19.99",
+      "subscriptionOldPlan": "com.plants.1year",
+      "subscriptionDiscount": "sale_75%"
+    },
+    "settingsConfig": {
+      "subscriptionScreenId": "manage_subscription_all_plans",
+      "title": "upgrade_your_plnt_profile_to_premium_status",
+      "webPaymentFlowIsAuto": false,
+      "subscriptionAllPlansFirst": "com.plants.1year",
+      "subscriptionAllPlansSecond": "com.plants.3month",
+      "subscriptionAllPlansThird": "com.plants.1month.7dt.14.99",
+      "subscriptionAllPlansFourth": "com.plants.1week.trial"
+    },
+    "progressConfig": {
+      "subscriptionScreenId": "progress_25off",
+      "title": "all_things_plants_in_one_app",
+      "subscriptionSelectedPlan": "com.plants.1week.7dt.5.99",
+      "subscriptionFirstPlan": "com.plants.1week.7dt.5.99",
+      "subscriptionFirstOldPlan": "com.plants.1week.trial",
+      "subscriptionSecondPlan": "com.plants.1month.7dt.12.99",
+      "subscriptionSecondOldPlan": "com.plants.1month.7dt.14.99",
+      "subscriptionThirdPlan": "com.plants.1year.7dt.59.99",
+      "subscriptionThirdOldPlan": "com.plants.1year"
+    }
+  }
+}
